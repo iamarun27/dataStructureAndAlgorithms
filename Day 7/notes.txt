@@ -1,0 +1,36 @@
+binary search:
+algorithm:
+1. find mid
+2. chec if values are equal or not
+3. move left / right
+
+
+              questions
+1. left most and right most index.
+2. search insert position  leetcode
+ist case: target found
+second case: not found 
+
+3. peak index in a mountain array
+conditions:
+a. arr[i-1]<arr[i]>arr[i+1]  (linear search)
+b. binary search
+arr[i-1]<arr[i]<arr[i+1]
+arr[i-1]<arr[i]>arr[i+1]
+arr[i-1]>arr[i]>arr[i+1]
+
+
+
+first case:  increasing order
+index = mid+1;
+start =  mid+1;
+
+second case : 
+return mid;
+
+third case :
+end = mid-1;
+index = mid;
+
+
+
